@@ -1,11 +1,12 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: ARGroup Intranet
+description: Keeping you safe!
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Out of sight. Out of mind.
   image:
-    file: ../../assets/houston.webp
+    light: ../../assets/argroup-icon-light.png
+    dark: ../../assets/argroup-icon-dark.png
   actions:
     - text: Example Guide
       link: /guides/example/
@@ -16,21 +17,6 @@ hero:
       variant: minimal
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Aside } from '@astrojs/starlight/components';
 
-## Next steps
-
-<CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
-</CardGrid>
+<Aside type="danger">Due to security concerns, parts of this site have been locked down. Consider everything on here as content to be referred to on a need-to-know basis.</Aside>

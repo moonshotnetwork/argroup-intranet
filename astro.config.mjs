@@ -7,9 +7,14 @@ import starlightThemeRapide from 'starlight-theme-rapide';
 export default defineConfig({
 	integrations: [
 		starlight({
+			credits: false,
+			logo: {
+				dark: './src/assets/argroup-logo-dark.png',
+				light: './src/assets/argroup-logo-light.png',
+				replacesTitle: true,
+			},
 			plugins: [starlightThemeRapide()],
-			title: 'ARGroup Intranet',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'Argroup Intranet',
 			sidebar: [
 				{
 					label: 'Guides',
