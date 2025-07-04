@@ -8,6 +8,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			credits: false,
+			favicon: './src/assets/argroup-icon-dark.png',
 			logo: {
 				dark: './src/assets/argroup-logo-dark.png',
 				light: './src/assets/argroup-logo-light.png',
