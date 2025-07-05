@@ -1,0 +1,14 @@
+---
+const { imageUrl, imageCaption = "" } = Astro.props;
+---
+
+<div>
+  <img src={imageUrl} />
+  <caption>{imageCaption}</caption>
+</div>
+
+<style>
+  div {
+    float: right;
+  }
+</style>
